@@ -1,0 +1,13 @@
+alfabet:
+  exercise:
+    credit-bank-account: "CreditBankAccountId"
+    payment-scheduler-cron: "0 0 1 * * ?"
+
+spring:
+  datasource:
+    url: jdbc:h2:./target_db
+    username: admin
+    password: admin
+  h2:
+    console:
+      enabled: true
